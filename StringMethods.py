@@ -8,6 +8,10 @@ print(all_upper.lower())
 
 # .isupper() and .islower() return the boolean expected values.
 # .isalpha(), isalnum(), .isdecimal(), .isspace(), .istitle() (makes the string title case) exist, too.
+# .rjust(x) and .ljust(x) and .center() exist.
+# .strip(), .rstrip(), and .lstrip() exist. (Removes all characters or specific characters from a string.)
+# .replace(to replace, replace with).
+# len(argument) returns length of argument.
 
 print("this is a string".startswith("this"))  # Returns "True"; .endswith() exists, too.
 
