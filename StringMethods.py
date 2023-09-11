@@ -17,3 +17,8 @@ print("this is a string".startswith("this"))  # Returns "True"; .endswith() exis
 
 print(", ".join(["one", "two", "three"]))
 print("Eggs, Milk, Waffles, Bacon".split(", "))
+
+# .format():
+name = input("Your name:")
+starsign = input("Your starsign:")
+print("{} is your name and {} is your starsign.".format(name, starsign))
